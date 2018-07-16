@@ -1,0 +1,27 @@
+        {{#if @first}}
+        <div class="producto primero">
+        {{else}}
+        <div class="producto ">
+        {{/if}}
+                <p>{{unsaludo}}</p>
+                <p>{{saludar}}</p>
+                <h3>{{@index}} - {{nombre_prod}}</h3>
+                <p>key: {{@key}}</p>
+                <span>Id Ref: {{_id.$num}} </span>
+                <p>Productor: {{productor}}</p>
+                <p>Stock: {{stock}}</p>
+                <p>Precio: {{precio}}</p>
+                <p>Tamanos: </p>
+                <ul>{{#each tamanos }}
+                         <li>{{this}}</li>
+                {{/each}}</ul>
+                {{#with imagen}}
+                <img src="{{this}}" alt="">
+                {{/with}}
+                {{#with contacto as |miContacto|}}
+                <h4>Contacto</h4>
+                <p>Nombre: {{miContacto.nombre}} {{miContacto.apellido}}</p>
+                <p>Tel {{miContacto.tel}}</p>
+                {{/with}}
+        </div>
+

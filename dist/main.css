@@ -1,0 +1,23 @@
+/* line 2, scss/main.scss */
+body {
+  height: 3000px;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+/* line 9, scss/main.scss */
+span {
+  font-size: .7em;
+}
+
+/* line 12, scss/main.scss */
+.producto {
+  padding: 1em;
+  background-color: #c9c9c9;
+  margin-bottom: 1em;
+}
+
+/* line 17, scss/main.scss */
+.primero {
+  background-color: #e59191;
+}

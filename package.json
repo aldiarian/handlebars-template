@@ -1,0 +1,21 @@
+{
+  "name": "prueba-hb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "handlebars": "^4.0.11"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.23.6",
+    "gulp": "^3.9.1",
+    "gulp-hb": "^7.0.1",
+    "gulp-sass": "^3.1.0",
+    "node-sass": "^4.7.2"
+  }
+}
